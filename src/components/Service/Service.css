@@ -1,0 +1,7 @@
+.service-card {
+  box-shadow: 10px 10px 5px rgb(95, 93, 93);
+}
+.service-card:hover {
+  box-shadow: 15px 15px 5px rgb(124, 124, 122);
+  padding: 1px;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "serviceName": "Diagnosis & Treatment",
+    "description": "Identification of medical issues by laboratory testing and physical observation.",
+    "costing": "700",
+    "img": "https://i.ibb.co/stD4nkD/Diagnosis-min.jpg"
+  },
+  {
+    "id": "2",
+    "serviceName": "Telemedicine",
+    "description": "You can take consultation over our official Phone. Please Book a Schedule for consultation in advance.",
+    "costing": "500",
+    "img": "https://i.ibb.co/kGKMzD2/telemedicine-min.jpg"
+  },
+  {
+    "id": "3",
+    "serviceName": "Pediatric Nutrition",
+    "description": "Child's food requirment is special for physical and mental development. We provide customize food chart & appropriate food suggestion for your baby.",
+    "costing": "1000",
+    "img": "https://i.ibb.co/9nKkT52/nutrition-min.jpg"
+  },
+  {
+    "id": "4",
+    "serviceName": "Regular Health Checkup",
+    "description": "Prevention is better then Cure. So we provide regular health checkup to identify any health issue.",
+    "costing": "800",
+    "img": "https://i.ibb.co/BV3bdx8/health-check-2.png"
+  },
+  {
+    "id": "5",
+    "serviceName": "Deworming",
+    "description": "Your child needs to deworm regularly if infected, or needs checkup continuously to prevent health issue.",
+    "costing": "500",
+    "img": "https://i.ibb.co/yR9yVzL/deworming-min.jpg"
+  },
+  {
+    "id": "6",
+    "serviceName": "Pharmecy",
+    "description": "We have our own Pharmecy. To buy authentic medicine at discounted price please visit",
+    "costing": "",
+    "img": "https://i.ibb.co/gDjbq7p/pharmacy-min.jpg"
+  }
+]

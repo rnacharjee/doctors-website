@@ -1,0 +1,13 @@
+#clinic-name {
+  color: rgb(235, 247, 247);
+  font-weight: 800;
+}
+
+.clinic-div {
+  font-family: "Courgette", cursive;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(3, 99, 52),
+    rgb(32, 190, 111)
+  );
+}
