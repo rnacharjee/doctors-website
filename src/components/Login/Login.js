@@ -50,7 +50,7 @@ const Login = () => {
 
   return (
     <div>
-      <h3>Login</h3>
+      <h4>Login using Google</h4>
       <br />
 
       <button
@@ -63,6 +63,7 @@ const Login = () => {
       <br />
 
       <hr />
+      <h4 className="text-primary">or</h4>
       <h4>Login using Email & Password</h4>
       <div className="d-flex justify-content-center align-items-center flex-column">
         <div className="w-100" style={{ maxWidth: "400px" }}>
@@ -89,7 +90,7 @@ const Login = () => {
                       ref={passwordRef}
                     ></Form.Control>
                   </Form.Group>
-
+                  <br />
                   <Button disabled={loading} className="w-100" type="submit">
                     Login
                   </Button>

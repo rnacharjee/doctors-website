@@ -86,6 +86,7 @@ const Register = () => {
                     ref={passwordConfirmaRef}
                   ></Form.Control>
                 </Form.Group>
+                <br />
                 <Button disabled={loading} className="w-100" type="submit">
                   Register
                 </Button>
