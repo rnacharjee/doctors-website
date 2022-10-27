@@ -27,6 +27,9 @@ const Header = () => {
             <LinkContainer to="/about">
               <Nav.Link>About</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/blog">
+              <Nav.Link>Blog</Nav.Link>
+            </LinkContainer>
           </Nav>
           <span className="mx-2 text-dark">{user.email}</span>
 

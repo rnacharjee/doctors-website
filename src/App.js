@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./components/About/About";
 import Appointment from "./components/Appointment/Appointment";
+import Blog from "./components/Blog/Blog";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -35,6 +36,14 @@ function App() {
               element={
                 <PrivateRoute>
                   <Appointment></Appointment>
+                </PrivateRoute>
+              }
+            ></Route>
+            <Route
+              path="/blog"
+              element={
+                <PrivateRoute>
+                  <Blog></Blog>
                 </PrivateRoute>
               }
             ></Route>

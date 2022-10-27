@@ -3,6 +3,8 @@ import React, { createContext, useEffect, useState } from "react";
 import HomeCarousel from "../Carousel/HomeCarousel";
 import "./Home.css";
 import Service from "../Service/Service";
+import Facilities from "../Facilities/Facilities";
+import NewBornCare from "../NewBornCare/NewBornCare";
 
 const Home = () => {
   const [services, setServices] = useState([]);
@@ -35,6 +37,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Facilities></Facilities>
+      <NewBornCare></NewBornCare>
     </div>
   );
 };
